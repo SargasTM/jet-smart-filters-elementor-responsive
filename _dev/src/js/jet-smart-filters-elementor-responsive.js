@@ -33,8 +33,6 @@
 				return;
 
 			this.deviceMode = deviceMode;
-			if (deviceMode === 'mobile')
-				deviceMode = 'phone';
 
 			for (const key in filterGroups) {
 				const filterGroup = filterGroups[key],
